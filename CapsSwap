@@ -1,7 +1,1 @@
-## If you are using this - remember to execute using xmodmap CapsSwap
-
-! Swap caps lock and escape
-remove Lock = Caps_Lock
-keysym Escape = Caps_Lock
-keysym Caps_Lock = Escape
-add Lock = Caps_Lock
+setxkbmap -layout us -option caps:swapescape
